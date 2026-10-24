@@ -6,9 +6,9 @@ from typing import Any, Callable
 import pandas as pd
 import streamlit as st
 
-from app.database import mysql_db
-from app.database.mongo_db import MongoDatabase
-from app.services import alert_service, investigation_service, transaction_service
+from database import mysql_db
+from database.mongo_db import MongoDatabase
+from services import alert_service, investigation_service, transaction_service
 
 st.set_page_config(page_title="Payment Risk Operations", page_icon="◈", layout="wide")
 
