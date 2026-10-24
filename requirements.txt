@@ -1,0 +1,6 @@
+streamlit>=1.57
+mysql-connector-python>=9.0
+pymongo>=4.8
+pandas>=2.2
+python-dotenv>=1.0
+pytest>=8.0
